@@ -1,5 +1,8 @@
 #!/bin/bash
 
+printf "Updating and upgrading system...\n"
+sudo apt update && sudo apt upgrade
+
 # ---Installs---
 # Essential
 sudo apt install -y tmux
@@ -12,15 +15,16 @@ sudo apt install -y ranger cmus w3m
 
 # ---Configure---
 # Install Vundle
+printf "\nInstalling Vundle\n"
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # Copy .vimrc
-echo "Copying .vimrc"
+printf "\nCopying .vimrc...\n"
 cp .vimrc ~/.vimrc
 echo "Done"
 
 # Copy tmux.conf
-echo "Copying .tmux.conf"
+printf "\nCopying .tmux.conf...\n"
 cp .tmux.conf ~/.tmux.conf
 echo "Done"
 
