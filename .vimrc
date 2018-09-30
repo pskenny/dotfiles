@@ -42,3 +42,6 @@ autocmd vimenter * NERDTree
 
 colorscheme moonshine
 
+" Turn on mouse support
+set mouse=a
+
