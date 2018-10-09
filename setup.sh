@@ -30,7 +30,7 @@ function dev_setup() {
 while true; do
 	read -p "Update, upgrade and clean (y/n)? " yn
 	case $yn in
-		[Yy]* ) sudo apt update && sudo apt upgrade && sudo apt autoremove -y; break;;
+		[Yy]* ) sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y; break;;
 		[Nn]* ) break;;
 		* ) echo "Please answer yes or no.";;
 	esac
