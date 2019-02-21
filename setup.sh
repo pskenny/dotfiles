@@ -1,11 +1,29 @@
 #!/bin/bash
 
-ESSENTIAL="tmux cowsay"
-GENERAL="ranger cmus w3m"
-DEV="vim clang-format"
+#tmux - terminal multiplexer, htop - better top
+ESSENTIAL="tmux cowsay htop"
+# ranger - cli file manager, cmus - cli music player, w3m - cli web browser, i3 - window manager, feh - set wallpaper
+GENERAL="ranger cmus w3m i3 feh playerctl vlc fish transmission-gtk"
+# TODO Alias diff to colordiff
+DEV="vim git colordiff"
+
+function general_setup() {
+	# Add Oh My Fish, fish package manager
+	curl -L https://get.oh-my.fish | fish
+
+	# make config directory
+	mkdir ~/.config
+
+	# copy configuration for i3
+	mkdir ~/.config/i3
+	cp i3 ~/.config/i3/config
+
+	mkdir ~/.config/fish
+	cp fish ~/.config/fish/config.fish 
+}
 
 function dev_setup() {
-	# Install Vundle
+	# Install Vundle, plugin manager for Vim
 	printf "\nInstalling Vundle\n"
 	if git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim ; then
 		echo "Done"
@@ -23,8 +41,7 @@ function dev_setup() {
 	cp .tmux.conf ~/.tmux.conf
 	printf "\nDone\n"
 
-
-	cowsay -f /usr/share/cowsay/cows/dragon.cow "Make sure to run :PluginInstall in vim!"
+	cowsay -f /usr/share/cowsay/cows/dragon.cow "Make sure to run :PluginInstall in vim! Also change your default shell to fish."
 }
 
 while true; do
@@ -32,7 +49,7 @@ while true; do
 	case $yn in
 		[Yy]* ) sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y; break;;
 		[Nn]* ) break;;
-		* ) echo "Please answer yes or no.";;
+		    * ) echo "Please answer yes or no.";;
 	esac
 done
 
@@ -46,8 +63,8 @@ while true; do
 	read -p "Enter option: " option
 	case $option in
 		[1]* ) sudo apt install -y $ESSENTIAL; break;;
-		[2]* ) sudo apt install -y $ESSENTIAL $GENERAL; break;;
-		[3]* ) sudo apt install -y $ESSENTIAL $GENERAL $DEV; dev_setup;  break;;
+		[2]* ) sudo apt install -y $ESSENTIAL $GENERAL; general_setup(); break;;
+		[3]* ) sudo apt install -y $ESSENTIAL $GENERAL $DEV;  general_setup(); dev_setup;  break;;
 		[4]* ) break;;
 		   * ) echo "Feed me numbers ^_^";;
 	esac
