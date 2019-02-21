@@ -38,7 +38,7 @@ Glaive codefmt google_java_executable="java -jar /path/to/google-java-format-VER
 filetype plugin indent on    " required
 
 " Open NERDTree when vim starts
-autocmd vimenter * NERDTree
+" autocmd vimenter * NERDTree
 
 colorscheme moonshine
 
