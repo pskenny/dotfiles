@@ -4,10 +4,11 @@
 ESSENTIAL="tmux cowsay htop"
 # ranger - cli file manager, cmus - cli music player, w3m - cli web browser, i3 - window manager, feh - set wallpaper
 GENERAL="ranger cmus w3m i3 feh playerctl vlc fish transmission-gtk"
-# TODO Alias diff to colordiff
 DEV="vim git colordiff"
 
 function general_setup() {
+        sudo apt install -y $ESSENTIAL $GENERAL
+
 	# Add Oh My Fish, fish package manager
 	curl -L https://get.oh-my.fish | fish
 
@@ -23,6 +24,10 @@ function general_setup() {
 }
 
 function dev_setup() {
+	general_setup
+
+        sudo apt install -y $DEV
+	
 	# Install Vundle, plugin manager for Vim
 	printf "\nInstalling Vundle\n"
 	if git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim ; then
@@ -63,8 +68,8 @@ while true; do
 	read -p "Enter option: " option
 	case $option in
 		[1]* ) sudo apt install -y $ESSENTIAL; break;;
-		[2]* ) sudo apt install -y $ESSENTIAL $GENERAL; general_setup(); break;;
-		[3]* ) sudo apt install -y $ESSENTIAL $GENERAL $DEV;  general_setup(); dev_setup;  break;;
+		[2]* ) general_setup; break;;
+		[3]* ) dev_setup;  break;;
 		[4]* ) break;;
 		   * ) echo "Feed me numbers ^_^";;
 	esac
