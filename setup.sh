@@ -46,7 +46,7 @@ function dev_setup() {
 	cp .tmux.conf ~/.tmux.conf
 	printf "\nDone\n"
 
-	cowsay -f /usr/share/cowsay/cows/dragon.cow "Make sure to run :PluginInstall in vim! Also change your default shell to fish."
+	cowsay -f /usr/share/cowsay/cows/dragon.cow "Make sure to run :PluginInstall in vim! Also change your default shell to fish with \"chsh -s \`which fish\`\""
 }
 
 while true; do
