@@ -10,6 +10,8 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 # Set mod key to Windows key
+set $mod Mod4
+
 font pango:monospace 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
