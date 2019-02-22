@@ -19,6 +19,10 @@ function general_setup() {
 	mkdir ~/.config/i3
 	cp i3 ~/.config/i3/config
 
+	# copy configuration for i3status
+	mkdir ~/.config/i3status
+	cp i3status ~/.config/i3status/config
+
 	mkdir ~/.config/fish
 	cp fish ~/.config/fish/config.fish 
 }
