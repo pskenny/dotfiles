@@ -26,7 +26,6 @@ order += "cpu_usage"
 #order += "cpu_temperature 2"
 #order += "cpu_temperature 3"
 order += "disk /"
-#order += "disk /media/media"
 order += "ethernet eth0"
 order += "tztime local"
 #order += "ipv6"
@@ -40,17 +39,17 @@ volume master {
 	mixer = "Master"
 	mixer_idx = 0
 	# termsyn font
-	format = "À %volume "
+	format = "Vol %volume "
 }
 
 load {
 #	format = " Δ: %1min "
 	# termsyn font
-	format = " Î %1min"
+	format = "Load %1min "
 }
 
 cpu_usage {
-	format = "%usage "
+	format = "CPU: %usage "
 }
 
 cpu_temperature 0 {
@@ -78,11 +77,7 @@ cpu_temperature 3 {
 }
 
 disk "/" {
-	format = " ¨ %avail:/ " 
-}
-
-disk "/media/media" {
-	format = " ¨ %avail:m "
+	format = "Free %avail:/" 
 }
 
 wireless wlan0 {
@@ -96,8 +91,8 @@ ethernet eth0 {
 #	format_down = " ∅ eth0  "
 
 	# termsyn font
-	format_up =  " ­ %ip "
-	format_down = " Ð eth0 "
+	format_up =  "%ip"
+	format_down = "eth0 down"
 }
 
 run_watch DHCP {
@@ -111,5 +106,5 @@ run_watch VPN {
 tztime local {
 #	format = " %h-%d %H:%M ☰ "
 	# termsyn font
-	format = " %h-%d É %H:%M  ¸ ÈÈÈ È "
+	format = "%Y-%m-%d %H:%M:%S %Z"
 }
