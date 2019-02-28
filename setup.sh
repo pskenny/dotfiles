@@ -3,7 +3,7 @@
 #tmux - terminal multiplexer, htop - better top
 ESSENTIAL="tmux cowsay htop"
 # ranger - cli file manager, cmus - cli music player, w3m - cli web browser, i3 - window manager, feh - set wallpaper
-GENERAL="curl ranger cmus w3m i3 feh playerctl vlc fish transmission-gtk"
+GENERAL="curl ranger cmus w3m i3 feh playerctl vlc fish transmission-gtk npm"
 DEV="vim git colordiff"
 
 function general_setup() {
