@@ -24,7 +24,7 @@ function general_setup() {
 	cp i3status ~/.config/i3status/config
 
 	mkdir ~/.config/fish
-	cp fish ~/.config/fish/config.fish 
+	cp config.fish ~/.config/fish/config.fish 
 }
 
 function dev_setup() {
