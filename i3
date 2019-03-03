@@ -180,6 +180,9 @@ bindsym $mod+Ctrl+Right exec playerctl next
 bindsym $mod+Ctrl+Left exec playerctl previous
 bindsym $mod+Ctrl+space exec playerctl play-pause
 
+# set to no window title
+default_border none
+
 # Set background, make sure file exists
 exec feh --bg-scale ~/Pictures/wallpaper.jpg
 
