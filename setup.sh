@@ -2,8 +2,8 @@
 
 #tmux - terminal multiplexer, htop - better top
 ESSENTIAL="tmux cowsay htop"
-# curl - downloader, ranger - cli file manager, cmus - cli music player, w3m - cli web browser, i3 - window manager, feh - set wallpaper, playerctl - cli control audio players, vlc - video player, fish - friendly shell, transmission-gtk - gui torrent downloader
-GENERAL="curl ranger cmus w3m i3 feh playerctl vlc fish transmission-gtk"
+# curl - downloader, ranger - cli file manager, cmus - cli music player, w3m - cli web browser, i3 - window manager, feh - set wallpaper, playerctl - cli control audio players, vlc - video player, fish - friendly shell, transmission-gtk - gui torrent downloader, mutt - email client
+GENERAL="curl ranger cmus w3m i3 feh playerctl vlc fish transmission-gtk mutt"
 DEV="vim git colordiff"
 
 function general_setup() {
@@ -24,7 +24,10 @@ function general_setup() {
 	cp i3status ~/.config/i3status/config
 
 	mkdir ~/.config/fish
-	cp config.fish ~/.config/fish/config.fish 
+	cp config.fish ~/.config/fish/config.fish
+
+	# copy mutt config
+	cp .muttrc ~/.muttrc	
 }
 
 function dev_setup() {
