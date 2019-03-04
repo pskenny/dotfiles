@@ -201,6 +201,8 @@ exec firefox
 # Start Transmission
 exec transmission-gtk -m
 
+exec nm-applet
+
 # Set number lock to on, must have numlockx installed (sudo apt install numlockx)
 exec_always --no-startup-id numlockx on
 
