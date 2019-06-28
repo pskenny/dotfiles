@@ -1,5 +1,37 @@
 #!/bin/bash
 
+#tmux - terminal multiplexer, htop - better top
+ESSENTIAL="tmux cowsay htop"
+# curl - downloader, ranger - cli file manager, cmus - cli music player, w3m - cli web browser, i3 - window manager, feh - set wallpaper, vlc - video player, fish - friendly shell, rtorrent - torrent downloader
+GENERAL="curl ranger cmus w3m i3 feh vlc fish rtorrent"
+DEV="vim"
+
+while true; do
+	read -p "Update, upgrade and clean (y/n)? " yn
+	case $yn in
+		[Yy]* ) sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y; break;;
+		[Nn]* ) break;;
+		    * ) echo "Please answer yes or no.";;
+	esac
+done
+
+sudo apt install -y $ESSENTIAL $GENERAL
+
+# Add Oh My Fish, fish package manager
+curl -L https://get.oh-my.fish | fish
+
+sudo apt install -y $DEV
+
+# Install Vundle, plugin manager for Vim
+printf "\nInstalling Vundle\n"
+if git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim ; then
+	echo "Done"
+else
+	echo "Couldn't clone Vundle"
+fi
+
+cowsay -f /usr/share/cowsay/cows/dragon.cow "Change your default shell to fish with \"chsh -s \`which fish\`\". For Google Drive install grive2."
+
 echo "Updating dotfiles..."
 read -p "Press Ctrl+C to cancel now if you don't want to update configs"
 
@@ -23,12 +55,9 @@ cp .muttrc ~/.muttrc
 # Copy .vimrc
 printf "\nCopying .vimrc..."
 cp .vimrc ~/.vimrc
-printf "\nDone"
 
 # Copy tmux.conf
 printf "\nCopying .tmux.conf..."
 cp .tmux.conf ~/.tmux.conf
-printf "\nDone\n"
 
 cowsay -f /usr/share/cowsay/cows/dragon.cow "Make sure to run :PluginInstall in vim!"
-
