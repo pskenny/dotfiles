@@ -2,9 +2,10 @@
 
 #tmux - terminal multiplexer, htop - better top
 ESSENTIAL="tmux cowsay htop"
-# curl - downloader, ranger - cli file manager, cmus - cli music player, w3m - cli web browser, i3 - window manager, feh - set wallpaper, vlc - video player, fish - friendly shell, rtorrent - torrent downloader
-GENERAL="curl ranger cmus w3m i3 feh vlc fish rtorrent"
+# curl - downloader, ranger - cli file manager, cmus - cli music player, fish - friendly shell, rtorrent - torrent downloader
+GENERAL="curl ranger cmus w3m fish rtorrent"
 DEV="vim"
+GUI="i3 feh vlc"
 
 while true; do
 	read -p "Update, upgrade and clean (y/n)? " yn
@@ -15,12 +16,7 @@ while true; do
 	esac
 done
 
-sudo apt install -y $ESSENTIAL $GENERAL
-
-# Add Oh My Fish, fish package manager
-curl -L https://get.oh-my.fish | fish
-
-sudo apt install -y $DEV
+sudo apt install -y $ESSENTIAL $GENERAL $DEV
 
 # Install Vundle, plugin manager for Vim
 printf "\nInstalling Vundle\n"
@@ -61,3 +57,7 @@ printf "\nCopying .tmux.conf..."
 cp .tmux.conf ~/.tmux.conf
 
 cowsay -f /usr/share/cowsay/cows/dragon.cow "Make sure to run :PluginInstall in vim!"
+
+# Add Oh My Fish, fish package manager
+curl -L https://get.oh-my.fish | fish
+
