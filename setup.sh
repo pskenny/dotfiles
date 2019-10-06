@@ -3,9 +3,8 @@
 #tmux - terminal multiplexer, htop - better top
 ESSENTIAL="tmux cowsay htop"
 # curl - downloader, ranger - cli file manager, cmus - cli music player, fish - friendly shell, rtorrent - torrent downloader
-GENERAL="curl ranger cmus w3m fish rtorrent"
+GENERAL="curl ranger cmus w3m fish"
 DEV="vim"
-GUI="i3 feh vlc"
 
 while true; do
 	read -p "Update, upgrade and clean (y/n)? " yn
@@ -44,9 +43,6 @@ cp i3status ~/.config/i3status/config
 
 mkdir ~/.config/fish
 cp config.fish ~/.config/fish/config.fish
-
-# copy mutt config
-cp .muttrc ~/.muttrc	
 
 # Copy .vimrc
 printf "\nCopying .vimrc..."
