@@ -2,7 +2,7 @@
 
 #tmux - terminal multiplexer, htop - better top
 ESSENTIAL="tmux cowsay htop"
-# curl - downloader, ranger - cli file manager, cmus - cli music player, fish - friendly shell, rtorrent - torrent downloader
+# curl - downloader, ranger - cli file manager, cmus - cli music player, fish - friendly shell
 GENERAL="curl ranger cmus w3m fish"
 DEV="vim"
 
