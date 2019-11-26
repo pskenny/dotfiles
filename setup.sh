@@ -2,8 +2,8 @@
 
 #tmux - terminal multiplexer, htop - better top
 ESSENTIAL="tmux cowsay htop"
-# curl - downloader, ranger - cli file manager, cmus - cli music player, fish - friendly shell
-GENERAL="curl ranger cmus w3m fish"
+# curl - downloader, ranger - cli file manager, cmus - cli music player, fish - friendly shell, exa - better ls
+GENERAL="curl ranger cmus w3m fish exa"
 DEV="vim"
 
 while true; do
