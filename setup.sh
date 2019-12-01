@@ -3,7 +3,7 @@
 #tmux - terminal multiplexer, htop - better top
 ESSENTIAL="tmux cowsay htop"
 # curl - downloader, ranger - cli file manager, cmus - cli music player, fish - friendly shell, exa - better ls
-GENERAL="curl ranger cmus w3m fish exa"
+GENERAL="curl ranger cmus w3m fish"
 DEV="vim"
 
 while true; do
@@ -15,7 +15,7 @@ while true; do
 	esac
 done
 
-sudo apt install -y $ESSENTIAL $GENERAL $DEV
+sudo apt install -y $ESSENTIAL $GENERAL $DEV || echo "Something couldn't be installed :( Exiting..." && exit
 
 # Install Vundle, plugin manager for Vim
 printf "\nInstalling Vundle\n"
