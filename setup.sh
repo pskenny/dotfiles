@@ -15,7 +15,7 @@ while true; do
 	esac
 done
 
-sudo apt install -y $ESSENTIAL $GENERAL $DEV || echo "Something couldn't be installed :( Exiting..." && exit
+sudo apt install -y $ESSENTIAL $GENERAL $DEV 
 
 # Install Vundle, plugin manager for Vim
 printf "\nInstalling Vundle\n"
