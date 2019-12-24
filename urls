@@ -1,50 +1,58 @@
-https://news.ycombinator.com/rss
-https://www.reddit.com/r/programming/top.rss
-https://rss.acast.com/intelligencesquared
+https://news.ycombinator.com/rss news
+http://feeds.arstechnica.com/arstechnica/index news
+
+file:///media/pi/storage1/documents/pocket.rss
+
+https://www.schneier.com/blog/atom.xml blog
+
+https://rss.acast.com/intelligencesquared podcast
 
 #youtube channels
-https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA
-https://www.youtube.com/feeds/videos.xml?channel_id=UC8uT9cgJorJPWu7ITLGo9Ww
-https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg
-https://www.youtube.com/feeds/videos.xml?channel_id=UCoLccjs6jbHa4soeYDgbKTg
-https://www.youtube.com/feeds/videos.xml?channel_id=UCtqnjs38ZDem8uXd6Qmee9A
-https://www.youtube.com/feeds/videos.xml?channel_id=UCTIoOLzT1jbxAcPW99xn0zQ
-https://www.youtube.com/feeds/videos.xml?channel_id=UCBbnbBWJtwsf0jLGUwX5Q3g
-https://www.youtube.com/feeds/videos.xml?channel_id=UCtXKDgv1AVoG88PLl8nGXmw
-https://www.youtube.com/feeds/videos.xml?channel_id=UCGtGTAa-xarr2HrEKRgRUHQ
-https://www.youtube.com/feeds/videos.xml?channel_id=UCEYTvzdLrD1bx1NTOO4nwpA
-https://www.youtube.com/feeds/videos.xml?channel_id=UCD4EOyXKjfDUhCI6jlOZZYQ
-https://www.youtube.com/feeds/videos.xml?channel_id=UCS0N5baNlQWJCUrhCEo8WlA
-https://www.youtube.com/feeds/videos.xml?channel_id=UCoLccjs6jbHa4soeYDgbKTg
-https://www.youtube.com/feeds/videos.xml?channel_id=UCO1cgjhGzsSYb1rsB4bFe4Q
-https://www.youtube.com/feeds/videos.xml?channel_id=UCTRM8LE1g6UXrVZKwgw5oEA
-https://www.youtube.com/feeds/videos.xml?channel_id=UCkK9UDm_ZNrq_rIXCz3xCGA
-https://www.youtube.com/feeds/videos.xml?channel_id=UC6x7GwJxuoABSosgVXDYtTw
-https://www.youtube.com/feeds/videos.xml?channel_id=UC-8QAzbLcRglXeN_MY9blyw
-https://www.youtube.com/feeds/videos.xml?channel_id=UCcabW7890RKJzL968QWEykA
-https://www.youtube.com/feeds/videos.xml?channel_id=UCEklP9iLcpExB8vp_fWQseg
-https://www.youtube.com/feeds/videos.xml?channel_id=UC29ju8bIPH5as8OGnQzwJyA
-https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw
-https://www.youtube.com/feeds/videos.xml?channel_id=UCW39zufHfsuGgpLviKh297Q
-https://www.youtube.com/feeds/videos.xml?channel_id=UCyIe-61Y8C4_o-zZCtO4ETQ
-https://www.youtube.com/feeds/videos.xml?channel_id=UCFKE7WVJfvaHW5q283SxchA
-https://www.youtube.com/feeds/videos.xml?channel_id=UCO1i2JmrYr2rgLa8vYRrnFg
-https://www.youtube.com/feeds/videos.xml?channel_id=UCfzlCWGWYyIQ0aLC5w48gBQ
-https://www.youtube.com/feeds/videos.xml?channel_id=UCLB7AzTwc6VFZrBsO2ucBMg
-https://www.youtube.com/feeds/videos.xml?channel_id=UCsT0YIqwnpJCM-mx7-gSA4Q
-https://www.youtube.com/feeds/videos.xml?channel_id=UCcEPmwpXKrKzZahqjwpIAsQ
-https://www.youtube.com/feeds/videos.xml?channel_id=UCimiUgDLbi6P17BdaCZpVbg
-https://www.youtube.com/feeds/videos.xml?channel_id=UCbmNph6atAoGfqLoCL_duAg
-https://www.youtube.com/feeds/videos.xml?channel_id=UCJbPGzawDH1njbqV-D5HqKw
-https://www.youtube.com/feeds/videos.xml?channel_id=UCvQECJukTDE2i6aCoMnS-Vg
-https://www.youtube.com/feeds/videos.xml?channel_id=UCJkMlOu7faDgqh4PfzbpLdg
-https://www.youtube.com/feeds/videos.xml?channel_id=UC2bkHVIDjXS7sgrgjFtzOXQ
-https://www.youtube.com/feeds/videos.xml?channel_id=UC7IcJI8PUf5Z3zKxnZvTBog
-https://www.youtube.com/feeds/videos.xml?channel_id=UCsXVk37bltHxD1rDPwtNM8Q
-https://www.youtube.com/feeds/videos.xml?channel_id=UC2C_jShtL725hvbm1arSV9w
-https://www.youtube.com/feeds/videos.xml?channel_id=UCBa659QWEk1AI4Tg--mrJ2A
-https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA
-https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A
-https://www.youtube.com/feeds/videos.xml?channel_id=UCLXo7UDZvByw2ixzpQCufnA
-https://www.youtube.com/feeds/videos.xml?channel_id=UCAuUUnT6oDeKwE6v1NGQxug
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8uT9cgJorJPWu7ITLGo9Ww yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoLccjs6jbHa4soeYDgbKTg yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCtqnjs38ZDem8uXd6Qmee9A yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCTIoOLzT1jbxAcPW99xn0zQ yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCBbnbBWJtwsf0jLGUwX5Q3g yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCtXKDgv1AVoG88PLl8nGXmw yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCGtGTAa-xarr2HrEKRgRUHQ yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCEYTvzdLrD1bx1NTOO4nwpA yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCD4EOyXKjfDUhCI6jlOZZYQ yt 
+https://www.youtube.com/feeds/videos.xml?channel_id=UCS0N5baNlQWJCUrhCEo8WlA yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoLccjs6jbHa4soeYDgbKTg yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCO1cgjhGzsSYb1rsB4bFe4Q yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCTRM8LE1g6UXrVZKwgw5oEA yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkK9UDm_ZNrq_rIXCz3xCGA yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6x7GwJxuoABSosgVXDYtTw yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC-8QAzbLcRglXeN_MY9blyw yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCcabW7890RKJzL968QWEykA yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCEklP9iLcpExB8vp_fWQseg yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC29ju8bIPH5as8OGnQzwJyA yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCW39zufHfsuGgpLviKh297Q yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCyIe-61Y8C4_o-zZCtO4ETQ yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCFKE7WVJfvaHW5q283SxchA yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCO1i2JmrYr2rgLa8vYRrnFg yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfzlCWGWYyIQ0aLC5w48gBQ yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCLB7AzTwc6VFZrBsO2ucBMg yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsT0YIqwnpJCM-mx7-gSA4Q yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCcEPmwpXKrKzZahqjwpIAsQ yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCimiUgDLbi6P17BdaCZpVbg yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbmNph6atAoGfqLoCL_duAg yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJbPGzawDH1njbqV-D5HqKw yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCvQECJukTDE2i6aCoMnS-Vg yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJkMlOu7faDgqh4PfzbpLdg yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2bkHVIDjXS7sgrgjFtzOXQ yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7IcJI8PUf5Z3zKxnZvTBog yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsXVk37bltHxD1rDPwtNM8Q yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2C_jShtL725hvbm1arSV9w yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCBa659QWEk1AI4Tg--mrJ2A yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoxcjq-8xIDTYp3uz647V5A yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCLXo7UDZvByw2ixzpQCufnA yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCAuUUnT6oDeKwE6v1NGQxug yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UClM2LuQ1q5WEc23462tQzBg yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9f78Z5hgtDt0n8JWyfBk8Q yt
+https://www.youtube.com/feeds/videos.xml?channel_id=UCQL5ABUvwY7YoW5lgMyAS_w yt
 
