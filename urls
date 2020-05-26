@@ -1,6 +1,6 @@
-https://news.ycombinator.com/rss               news # Hacker News
-http://feeds.arstechnica.com/arstechnica/index news # Ars Technica
-
+https://news.ycombinator.com/rss                      news # Hacker News
+http://feeds.arstechnica.com/arstechnica/index        news # Ars Technica
+http://feeds.reuters.com/Reuters/worldNews?format=xml news # Reuters
 # Local
 file:///media/paul/storage/documents/pocket.rss
 
@@ -9,9 +9,12 @@ https://www.schneier.com/blog/atom.xml                                    blogma
 https://feeds2.feedburner.com/typepad/krisdedecker/lowtechmagazineenglish blogmag
 
 # Podcasts
-https://rss.acast.com/intelligencesquared podcast # Intelligence Squared
-https://lexfridman.com/category/ai/feed/  podcast # AI Podcast With Lex Fridman
-https://feeds.simplecast.com/D09K00T8     podcast # The Average Developer Podcast
+https://rss.acast.com/intelligencesquared      podcast # Intelligence Squared
+https://lexfridman.com/category/ai/feed/       podcast # AI Podcast With Lex Fridman
+https://feeds.simplecast.com/D09K00T8          podcast # The Average Developer Podcast
+https://podcasts.files.bbci.co.uk/b006qykl.rss podcast # In Out Time
+https://theknowledgeproject.libsyn.com/rss     podcast # The Knowledge Project with Shane Parrish
+http://www.econtalk.org/feed/                  podcast # EconTalk
 
 # Youtube channels
 https://www.youtube.com/feeds/videos.xml?channel_id=UCFKE7WVJfvaHW5q283SxchA yt exercise # Yoga With Adriene
