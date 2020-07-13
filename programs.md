@@ -16,6 +16,7 @@ Personal list of programs so I don't forget.
 
 - [VS Code](https://github.com/microsoft/vscode): text editor
 - [rbenv](https://github.com/rbenv/rbenv): Ruby environment manager
+- [thefuck](https://github.com/nvbn/thefuck): Corrects your previous console command
 
 ## Media
 
