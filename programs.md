@@ -11,6 +11,7 @@ Personal list of programs so I don't forget.
 
 - [i3](https://github.com/i3/i3): A tiling window manager
 - [rofi](https://github.com/davatorium/rofi): Window switcher, application launcher and dmenu replacement
+- [playerctl](https://github.com/altdesktop/playerctl): mpris media player controller
 
 ## Dev
 
@@ -34,3 +35,8 @@ Personal list of programs so I don't forget.
 
 - [ranger](https://github.com/ranger/ranger): TUI File manager
 - [topgrade](https://github.com/r-darwish/topgrade): Upgrade everything
+
+## Other
+
+- colordiff
+- [tldr](https://github.com/tldr-pages/tldr): Help pages for command-line tools
