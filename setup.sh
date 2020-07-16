@@ -25,8 +25,6 @@ else
 	echo "Couldn't clone Vundle"
 fi
 
-cowsay -f /usr/share/cowsay/cows/dragon.cow "Change your default shell to fish with \"chsh -s \`which fish\`\". For Google Drive install grive2."
-
 echo "Updating dotfiles..."
 read -p "Press Ctrl+C to cancel now if you don't want to update configs"
 

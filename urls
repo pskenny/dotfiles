@@ -1,20 +1,18 @@
 https://news.ycombinator.com/rss                      news # Hacker News
-http://feeds.arstechnica.com/arstechnica/index        news # Ars Technica
 http://feeds.reuters.com/Reuters/worldNews?format=xml news # Reuters
-# Local
-file:///media/paul/storage/documents/pocket.rss
 
 # Blogs/Magazines
-https://www.schneier.com/blog/atom.xml                                    blogmag
-https://feeds2.feedburner.com/typepad/krisdedecker/lowtechmagazineenglish blogmag
+https://www.schneier.com/blog/atom.xml                                    blogmag # Bruce Schneier
+https://jvns.ca/atom.xml                                                  blogmag # Julia Evans
+https://feeds2.feedburner.com/typepad/krisdedecker/lowtechmagazineenglish blogmag # Lowtech Magazine
 
 # Podcasts
 https://rss.acast.com/intelligencesquared      podcast # Intelligence Squared
 https://lexfridman.com/category/ai/feed/       podcast # AI Podcast With Lex Fridman
-https://feeds.simplecast.com/D09K00T8          podcast # The Average Developer Podcast
 https://podcasts.files.bbci.co.uk/b006qykl.rss podcast # In Out Time
 https://theknowledgeproject.libsyn.com/rss     podcast # The Knowledge Project with Shane Parrish
 http://www.econtalk.org/feed/                  podcast # EconTalk
+https://changelog.com/podcast/feed             podcast # The Changelog
 
 # Youtube channels
 https://www.youtube.com/feeds/videos.xml?channel_id=UCFKE7WVJfvaHW5q283SxchA yt exercise # Yoga With Adriene
@@ -34,7 +32,6 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA yt 
 https://www.youtube.com/feeds/videos.xml?channel_id=UC8uT9cgJorJPWu7ITLGo9Ww yt tech     # The 8-Bit Guy
 https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg yt tech     # Two Minute Papers
 https://www.youtube.com/feeds/videos.xml?channel_id=UCtXKDgv1AVoG88PLl8nGXmw yt tech     # GoogleTechTalks
-https://www.youtube.com/feeds/videos.xml?channel_id=UCD4EOyXKjfDUhCI6jlOZZYQ yt tech     # Eli the Computer Guy
 https://www.youtube.com/feeds/videos.xml?channel_id=UCS0N5baNlQWJCUrhCEo8WlA yt tech     # Ben Eater
 https://www.youtube.com/feeds/videos.xml?channel_id=UCO1cgjhGzsSYb1rsB4bFe4Q yt tech     # Fun Fun Function
 https://www.youtube.com/feeds/videos.xml?channel_id=UC-8QAzbLcRglXeN_MY9blyw yt tech     # Ben Awad
@@ -46,13 +43,14 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCLB7AzTwc6VFZrBsO2ucBMg yt 
 https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA yt tech     # Computerphile
 https://www.youtube.com/feeds/videos.xml?channel_id=UCJbPGzawDH1njbqV-D5HqKw yt tech     # thenewboston
 https://www.youtube.com/feeds/videos.xml?channel_id=UC-yuWVUplUJZvieEligKBkA yt tech     # javidx9
+https://www.youtube.com/feeds/videos.xml?channel_id=UCuXy5tCgEninup9cGplbiFw yt tech     # Missing Semester
 https://www.youtube.com/feeds/videos.xml?channel_id=UCtqnjs38ZDem8uXd6Qmee9A yt music    # Bantham Legend
 https://www.youtube.com/feeds/videos.xml?channel_id=UCKzvu4MGGznD55iKaDE5c_g yt music    # frans kuijpers
 https://www.youtube.com/feeds/videos.xml?channel_id=UCoLccjs6jbHa4soeYDgbKTg yt other    # Modern Classic
 https://www.youtube.com/feeds/videos.xml?channel_id=UCTRM8LE1g6UXrVZKwgw5oEA yt other    # Kurtis Baute
 https://www.youtube.com/feeds/videos.xml?channel_id=UC6x7GwJxuoABSosgVXDYtTw yt other    # I Like To Make Stuff
 https://www.youtube.com/feeds/videos.xml?channel_id=UCEklP9iLcpExB8vp_fWQseg yt other    # Makin' Stuff Look Good
-https://www.youtube.com/feeds/videos.xml?channel_id=UC29ju8bIPH5as8OGnQzwJyA yt tech    # Traversy Media
+https://www.youtube.com/feeds/videos.xml?channel_id=UC29ju8bIPH5as8OGnQzwJyA yt tech     # Traversy Media
 https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw yt other    # 3Blue1Brown
 https://www.youtube.com/feeds/videos.xml?channel_id=UCW39zufHfsuGgpLviKh297Q yt other    # DW Documentary
 https://www.youtube.com/feeds/videos.xml?channel_id=UCcEPmwpXKrKzZahqjwpIAsQ yt other    # WonderWhy
