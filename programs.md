@@ -12,6 +12,7 @@ Personal list of programs so I don't forget.
 - [i3](https://github.com/i3/i3): A tiling window manager
 - [rofi](https://github.com/davatorium/rofi): Window switcher, application launcher and dmenu replacement
 - [playerctl](https://github.com/altdesktop/playerctl): mpris media player controller
+- [emoji-menu](https://github.com/jchook/emoji-menu): 🔍 Easily find and copy emojis on Linux
 
 ## Dev
 
