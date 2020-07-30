@@ -1,11 +1,12 @@
 https://news.ycombinator.com/rss                      news # Hacker News
+https://www.reddit.com/r/programming/top.rss?t=week   news # Programming subreddit
 http://feeds.reuters.com/Reuters/worldNews?format=xml news # Reuters
 
 # Blogs/Magazines
 https://www.schneier.com/blog/atom.xml                                    blogmag # Bruce Schneier
 https://jvns.ca/atom.xml                                                  blogmag # Julia Evans
 https://feeds2.feedburner.com/typepad/krisdedecker/lowtechmagazineenglish blogmag # Lowtech Magazine
-https://www.reddit.com/r/programming/top.rss?t=week                       blogmag # Programming subreddit
+
 
 # Podcasts
 https://rss.acast.com/intelligencesquared      podcast # Intelligence Squared
@@ -15,7 +16,7 @@ https://theknowledgeproject.libsyn.com/rss     podcast # The Knowledge Project w
 http://www.econtalk.org/feed/                  podcast # EconTalk
 https://changelog.com/podcast/feed             podcast # The Changelog
 
-# Youtube channels
+# YouTube channels
 https://www.youtube.com/feeds/videos.xml?channel_id=UCFKE7WVJfvaHW5q283SxchA yt exercise # Yoga With Adriene
 https://www.youtube.com/feeds/videos.xml?channel_id=UC06Yh0gGJspxyLEMJ61GP1g yt art      # Meppity
 https://www.youtube.com/feeds/videos.xml?channel_id=UCJZ9YOuPr8UihOPydCUmp6Q yt art      # Ben Lustenhouwer
@@ -45,13 +46,17 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA yt 
 https://www.youtube.com/feeds/videos.xml?channel_id=UCJbPGzawDH1njbqV-D5HqKw yt tech     # thenewboston
 https://www.youtube.com/feeds/videos.xml?channel_id=UC-yuWVUplUJZvieEligKBkA yt tech     # javidx9
 https://www.youtube.com/feeds/videos.xml?channel_id=UCuXy5tCgEninup9cGplbiFw yt tech     # Missing Semester
+https://www.youtube.com/feeds/videos.xml?channel_id=UC29ju8bIPH5as8OGnQzwJyA yt tech     # Traversy Media
+https://www.youtube.com/feeds/videos.xml?channel_id=UCEBb1b_L6zDS3xTUrIALZOw yt tech     # MIT OpenCourseWare
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSHZKyawb77ixDdsGog4iWA yt tech     # Lex Fridman
 https://www.youtube.com/feeds/videos.xml?channel_id=UCtqnjs38ZDem8uXd6Qmee9A yt music    # Bantham Legend
 https://www.youtube.com/feeds/videos.xml?channel_id=UCKzvu4MGGznD55iKaDE5c_g yt music    # frans kuijpers
+https://www.youtube.com/feeds/videos.xml?channel_id=UCFKIgvMmcJtxTS9pdpCFwfg yt other    # Cynic Snacks
+https://www.youtube.com/feeds/videos.xml?channel_id=UCG-KntY7aVnIGXYEBQvmBAQ yt other    # Thomas Frank
 https://www.youtube.com/feeds/videos.xml?channel_id=UCoLccjs6jbHa4soeYDgbKTg yt other    # Modern Classic
 https://www.youtube.com/feeds/videos.xml?channel_id=UCTRM8LE1g6UXrVZKwgw5oEA yt other    # Kurtis Baute
 https://www.youtube.com/feeds/videos.xml?channel_id=UC6x7GwJxuoABSosgVXDYtTw yt other    # I Like To Make Stuff
 https://www.youtube.com/feeds/videos.xml?channel_id=UCEklP9iLcpExB8vp_fWQseg yt other    # Makin' Stuff Look Good
-https://www.youtube.com/feeds/videos.xml?channel_id=UC29ju8bIPH5as8OGnQzwJyA yt tech     # Traversy Media
 https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw yt other    # 3Blue1Brown
 https://www.youtube.com/feeds/videos.xml?channel_id=UCW39zufHfsuGgpLviKh297Q yt other    # DW Documentary
 https://www.youtube.com/feeds/videos.xml?channel_id=UCcEPmwpXKrKzZahqjwpIAsQ yt other    # WonderWhy
@@ -69,7 +74,6 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCLXo7UDZvByw2ixzpQCufnA yt 
 https://www.youtube.com/feeds/videos.xml?channel_id=UCAuUUnT6oDeKwE6v1NGQxug yt other    # TED 
 https://www.youtube.com/feeds/videos.xml?channel_id=UC9f78Z5hgtDt0n8JWyfBk8Q yt other    # Quartz
 https://www.youtube.com/feeds/videos.xml?channel_id=UCQL5ABUvwY7YoW5lgMyAS_w yt other    # WheezyWaiter
-https://www.youtube.com/feeds/videos.xml?channel_id=UCEBb1b_L6zDS3xTUrIALZOw yt tech     # MIT OpenCourseWare
 https://www.youtube.com/feeds/videos.xml?channel_id=UCpYHEAhSUx1hBn2SkvXvTrg yt other    # NOWNESS
 https://www.youtube.com/feeds/videos.xml?channel_id=UCurRe8BIpPo72lxuJTjIB7w yt other    # M2M - Made To Measure
 https://www.youtube.com/feeds/videos.xml?channel_id=UCAP57cF-FSjJKzzXg7ntPlQ yt other    # Criterion Collection
