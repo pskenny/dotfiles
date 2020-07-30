@@ -5,6 +5,7 @@ http://feeds.reuters.com/Reuters/worldNews?format=xml news # Reuters
 https://www.schneier.com/blog/atom.xml                                    blogmag # Bruce Schneier
 https://jvns.ca/atom.xml                                                  blogmag # Julia Evans
 https://feeds2.feedburner.com/typepad/krisdedecker/lowtechmagazineenglish blogmag # Lowtech Magazine
+https://www.reddit.com/r/programming/top.rss?t=week                       blogmag # Programming subreddit
 
 # Podcasts
 https://rss.acast.com/intelligencesquared      podcast # Intelligence Squared
