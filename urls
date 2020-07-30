@@ -1,6 +1,5 @@
 https://news.ycombinator.com/rss                      news # Hacker News
 https://www.reddit.com/r/programming/top.rss?t=week   news # Programming subreddit
-http://feeds.reuters.com/Reuters/worldNews?format=xml news # Reuters
 
 # Blogs/Magazines
 https://www.schneier.com/blog/atom.xml                                    blogmag # Bruce Schneier
