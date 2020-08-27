@@ -41,3 +41,5 @@ Personal list of programs so I don't forget.
 
 - colordiff
 - [tldr](https://github.com/tldr-pages/tldr): Help pages for command-line tools
+- [searx](https://searx.space/)
+
