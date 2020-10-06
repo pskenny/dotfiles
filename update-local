@@ -10,7 +10,7 @@ cp config.fish ~/.config/fish/config
 
 echo "Updating fish functions..."
 mkdir ~/.config/fish/functions
-cp functions ~/.config/fish/functions/functions.fish
+cp functions.fish ~/.config/fish/functions/functions.fish
 
 echo "Updating i3"
 cp i3 ~/.config/i3/config
