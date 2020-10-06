@@ -3,22 +3,26 @@
 echo "Updating local configs from dotfiles..."
 
 echo "Updating newsboat"
+[ ! -d "~/.newsboat" ] && mkdir ~/.newsboat
 cp urls ~/.newsboat/urls
 
 echo "Updating fish config"
-cp config.fish ~/.config/fish/config 
+[ ! -d "~/.config/fish/" ] && mkdir -p ~/.config/fish/
+cp config.fish ~/.config/fish/config.fish 
 
 echo "Updating fish functions..."
-mkdir ~/.config/fish/functions
+[ ! -d "~/.config/fish/functions" ] && mkdir ~/.config/fish/functions
 cp functions.fish ~/.config/fish/functions/functions.fish
 
 echo "Updating i3"
+[ ! -d "~/.config/i3/config" ] && mkdir -p ~/.config/i3/config
 cp i3 ~/.config/i3/config
 
 echo "Updating i3status"
+[ ! -d "~/.config/i3status/config" ] && mkdir -p ~/.config/i3status/config
 cp i3status ~/.config/i3status/config 
 
- echo "Updating vimrc"
+echo "Updating vimrc"
 cp .vimrc ~/.vimrc
 
 echo "Updating tmux"
