@@ -1,6 +1,13 @@
 alias duck="w3m duckduckgo.com"
 alias wthr="curl wttr.in/Galway"
 
+function update-repos
+	mkdir ~/repos/
+	for i in (cat ~/dotfiles/repos)
+		git clone $i ~/repos/(basename $i) 
+	end
+end
+
 function mkdir-cd
     mkdir $argv && cd $argv
 end
