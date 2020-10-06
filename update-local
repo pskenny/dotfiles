@@ -1,0 +1,22 @@
+#!/bin/bash
+
+echo "Updating local configs from dotfiles..."
+
+echo "Updating newsboat"
+cp urls ~/.newsboat/urls
+
+echo "Updating fish config"
+cp config.fish ~/.config/fish/config 
+
+echo "Updating i3"
+cp i3 ~/.config/i3/config
+
+echo "Updating i3status"
+cp i3status ~/.config/i3status/config 
+
+ echo "Updating vimrc"
+cp .vimrc ~/.vimrc
+
+echo "Updating tmux"
+cp .tmux.conf ~/.tmux.conf 
+
