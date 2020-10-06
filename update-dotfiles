@@ -9,7 +9,7 @@ echo "Updating fish config"
 cp ~/.config/fish/config config.fish 
 
 echo "Updating fish functions"
-cp ~/.config/fish/functions/functions.fish functions
+cp ~/.config/fish/functions/functions.fish functions.fish
 
 echo "Updating i3"
 cp ~/.config/i3/config i3
