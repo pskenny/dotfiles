@@ -7,7 +7,7 @@ set PATH $PATH ~/.cargo/bin
 function fish_greeting
 	set todo ~/Dropbox/todo.md
 	if test -e "$todo" 
-		cat $todo | cowsay
+		head -n 5 $todo | cowsay
 	end
 end
 
