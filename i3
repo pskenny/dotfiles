@@ -204,6 +204,9 @@ exec firefox
 # Start Transmission
 exec transmission-gtk -m
 
+# Start syncthing
+exec syncthing
+
 exec nm-applet
 
 # Set number lock to on, must have numlockx installed (sudo apt install numlockx)
