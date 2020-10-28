@@ -180,6 +180,9 @@ bindsym $mod+Ctrl+Right exec playerctl next
 bindsym $mod+Ctrl+Left exec playerctl previous
 bindsym $mod+Ctrl+space exec playerctl play-pause
 
+# emoji-menu
+bindsym $mod+g exec emoji-menu
+
 # set to no window title
 default_border none
 
