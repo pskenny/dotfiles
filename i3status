@@ -17,6 +17,7 @@ general {
 	output_format = "i3bar"
 }
 
+order += "battery 0"
 order += "volume master"
 order += "load"
 order += "cpu_usage"
@@ -32,6 +33,15 @@ order += "tztime local"
 #order += "run_watch DHCP"
 #order += "run_watch VPN"
 #order += "wireless wlan0"
+
+battery 0 {
+    format = " %status %percentage %remaining (%consumption)"
+    path = "/sys/class/power_supply/BAT%d/uevent"
+    low_threshold = "30"
+    threshold_type = "time"
+    last_full_capacity = true
+    integer_battery_capacity = true
+}
 
 volume master {
 #	format = " ♪: %volume  " 
@@ -106,5 +116,5 @@ run_watch VPN {
 tztime local {
 #	format = " %h-%d %H:%M ☰ "
 	# termsyn font
-	format = "%Y-%m-%d %H:%M:%S %Z"
+	format = "%d-%m-%Y %H:%M"
 }
