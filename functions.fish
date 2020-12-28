@@ -2,24 +2,24 @@ alias duck="w3m duckduckgo.com"
 alias wthr="curl wttr.in/Galway"
 
 function update-repos
-	set originaldir $PWD
-	# make repos directory
-	if not test -d ~/repos/
-		mkdir ~/repos/
-	end
+    set originaldir $PWD
+    # make repos directory
+    if not test -d ~/repos/
+        mkdir ~/repos/
+    end
 
-	for i in (cat ~/dotfiles/repos)
-		set repo $HOME/repos/(basename $i)
-		echo
-		echo $repo
-		
-		if test -d "$repo"
-			cd "$repo" && git pull 
-		else
-			git clone $i $repo 
-		end
-	end
-	cd $originaldir
+    for i in (cat ~/dotfiles/repos)
+        set repo $HOME/repos/(basename $i)
+        echo
+        echo $repo
+
+        if test -d "$repo"
+            cd "$repo" && git pull
+        else
+            git clone $i $repo
+        end
+    end
+    cd $originaldir
 end
 
 function mkdir-cd
@@ -48,10 +48,13 @@ end
 function clone-cd --argument repo _destination
     set destination (default $_destination (basename $repo | trim-right .git))
     if file-exists $destination
-      cd $destination && git pull
-      return
+        cd $destination && git pull
+        return
     end
 
     git clone --depth=1 $repo $destination && cd $destination
 end
 
+function youtubet-dl-batch --argument listfile
+    youtube-dl -f best --output "%(uploader)s/%(title)s.%(ext)s" -a $listfile
+end
