@@ -1,4 +1,7 @@
-https://news.ycombinator.com/rss                      news # Hacker News
+https://videos.lukesmith.xyz/feeds/videos.xml?sort=-trending video # Luke Smith
+
+https://pskenny.github.io/feed.xml
+https://hnrss.org/newest?points=100                   news  # Hacker News
 https://www.reddit.com/r/programming/top.rss?t=week   news # Programming subreddit
 
 # Blogs/Magazines
