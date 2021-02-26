@@ -1,17 +1,17 @@
-https://videos.lukesmith.xyz/feeds/videos.xml?sort=-trending video # Luke Smith
-
 https://pskenny.github.io/feed.xml
-https://hnrss.org/newest?points=100                   news  # Hacker News
+https://hnrss.org/newest?points=100                   news # Hacker News
 https://www.reddit.com/r/programming/top.rss?t=week   news # Programming subreddit
 
 # Blogs/Magazines
-https://www.schneier.com/blog/atom.xml                                    blogmag # Bruce Schneier
-https://jvns.ca/atom.xml                                                  blogmag # Julia Evans
 https://feeds2.feedburner.com/typepad/krisdedecker/lowtechmagazineenglish blogmag # Lowtech Magazine
-https://lukesmith.xyz/rss.xml                                             blogmag # Luke Smith
 http://lambda-the-ultimate.org/rss.xml                                    blogmag # Lambda The Ulitmate
-http://johnsalvatier.org/feed.xml                                         blogmag # John Salvatier
 
+https://lukesmith.xyz/rss.xml                              blog # Luke Smith
+http://johnsalvatier.org/feed.xml                          blog # John Salvatier
+https://martinfowler.com/feed.atom                         blog # Matin Fowler
+https://beepb00p.xyz/rss.xml                               blog # karlicoss
+https://www.schneier.com/blog/atom.xml                     blog # Bruce Schneier
+https://jvns.ca/atom.xml                                   blog # Julia Evans
 https://www.gwern.net/docs/personal/rss-subscriptions.opml blog # Gwern
 http://worrydream.com/feed.xml                             blog # Bret Victor
 https://blog.jessfraz.com/index.xml                        blog # Jessie Frazelle
