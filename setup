@@ -1,9 +1,9 @@
 #!/bin/bash
 
-#tmux - terminal multiplexer, htop - better top
-ESSENTIAL="tmux cowsay htop"
-# curl - downloader, ranger - cli file manager, cmus - cli music player, fish - friendly shell, exa - better ls
-GENERAL="curl ranger cmus w3m fish"
+#tmux - terminal multiplexer, htop - better top, curl - downloader
+ESSENTIAL="tmux cowsay htop curl"
+# ranger - cli file manager, cmus - cli music player, zsh - shell
+GENERAL="ranger cmus w3m zsh"
 DEV="vim"
 
 while true; do
@@ -52,6 +52,6 @@ cp .tmux.conf ~/.tmux.conf
 
 cowsay -f /usr/share/cowsay/cows/dragon.cow "Make sure to run :PluginInstall in vim!"
 
-# Add Oh My Fish, fish package manager
-curl -L https://get.oh-my.fish | fish
+# Add Oh My ZSH!, zsh package manager
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
