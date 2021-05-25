@@ -2,8 +2,8 @@
 
 #tmux - terminal multiplexer, htop - better top, curl - downloader
 ESSENTIAL="tmux cowsay htop curl"
-# ranger - cli file manager, cmus - cli music player, zsh - shell
-GENERAL="ranger cmus w3m zsh"
+# ranger - cli file manager, cmus - cli music player, zsh - shell, calc - calculator, calcurse - terminal calendar
+GENERAL="ranger cmus w3m zsh calc calcurse"
 DEV="vim"
 
 while true; do
